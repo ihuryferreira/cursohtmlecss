@@ -1,0 +1,122 @@
+@media (max-width: 1107px) {
+  .sobre {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    min-height: 100vh;
+  }
+  .conteiner .css {
+    margin-bottom: 5%;
+  }
+  .conteiner-2 .contato-ihury {
+    margin-top: 3%;
+  }
+}
+
+@media (max-width: 800px) {
+  .conteiner-2 .contato-ihury {
+    margin-right: 1%;
+  }
+  .conteiner-2 .contato-ihury h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    width: 180px;
+    max-width: 100%;
+    padding: 8px;
+    gap: 0px 5px;
+  }
+}
+
+@media (max-width: 665px) {
+  header.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 30vh;
+  }
+  .logo-link {
+    margin-top: 2%;
+  }
+  .logo-link .text-logo {
+    font-size: 26px;
+  }
+  .navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+  }
+  .navBar a {
+    text-decoration: underline;
+    color: rgba(8, 8, 175, 0.473);
+  }
+
+  /* .sobre-img img {
+    width: 90%;
+  } */
+}
+
+@media (max-width: 584px) {
+  .header .logo-link > a.text-logo {
+    font-size: 20px;
+  }
+  .navBar > a {
+    font-size: 16px;
+  }
+  .sobre .sobre-img {
+    width: 80%;
+  }
+  .sobre .sobre-img .img-sobre {
+    width: 100%;
+  }
+  .sobre .caixa-sobre > .text-paragrapho {
+    font-size: 14px;
+  }
+  .conteiner-2 .caixa-form .contato-ihury {
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    justify-content: stretch;
+  }
+
+  .conteiner-2 .caixa-form .contato-ihury h2 {
+    background-color: yellow;
+    color: black;
+    border: 4px solid black;
+  }
+  .curso {
+    width: 90%;
+  }
+  .css {
+    width: 90%;
+  }
+  .conteudo > a {
+    font-size: 14px;
+  }
+  .conteudo > a > h5#nome-curso {
+    font-size: 12px;
+  }
+  .conteiner .curso > time {
+    font-size: 12px;
+  }
+  .css-titulo {
+    font-size: 16px;
+  }
+  .video-css .conteudo > a {
+    font-size: 14px;
+  }
+  .video-css .conteudo > a > h5#nome-curso {
+    font-size: 14px;
+  }
+  .css .video-css > time {
+    font-size: 12px;
+  }
+  .rodape {
+    font-size: 12px;
+  }
+}

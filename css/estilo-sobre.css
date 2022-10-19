@@ -1,0 +1,50 @@
+:root {
+  --background-fundo: #f0f2f5;
+  --background-transparent: rgba(0, 0, 0, 0.1);
+}
+
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "sobre-img caixa-sobre";
+  grid-template-rows: minmax(250px, 100vh);
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-transparent);
+  flex: 1 0 auto;
+}
+/* "sobre-img caixa-sobre" */
+.sobre .sobre-img {
+  grid-column: sobre-img;
+  width: 523px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 3%;
+}
+.sobre .sobre-img img {
+  width: 500px;
+}
+.sobre .caixa-sobre {
+  grid-column: caixa-sobre;
+  grid-row: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: transparent;
+}
+.sobre .title-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 42px;
+}
+.sobre .text-paragrapho {
+  width: 100%;
+  max-width: 550px;
+  max-height: 350px;
+  text-align: center;
+}
